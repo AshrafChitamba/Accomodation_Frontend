@@ -1,0 +1,191 @@
+
+.App {
+  font-family:  Sans;
+  background-size: cover;
+  text-align: center;
+  margin: auto;
+  text-decoration: none;
+  padding: 8px;
+  background-color: black;
+    }
+
+    /*------------------box cascading un-ordered list- section-------------------------*/
+  .App ul li:hover{
+    opacity: 0.4;
+    transition: .3s;
+  }
+  .App ul li{
+    text-decoration: none;
+    display: block;
+    color: #1d1c1c;
+  } 
+
+/*---------------------section styling contents for the Landlords and Estate Agents----------------------------*/
+.box{
+  padding: 10px 10vw;
+  align-items: inherit;
+  border-radius: 10px;
+  border: solid #d6d3d3;
+  box-sizing: border-box;
+  font-family: 'roboto', sans-serif;
+  margin-right: 5em;
+  margin-left: 5em;
+  height: auto;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  z-index: 9;
+  position: sticky;
+  background-color: rgb(126, 160, 160);
+
+}
+
+/*-------------------Heading section styling----------------------------*/
+
+     h1 {
+        text-align: center;
+        color: rgb(35, 35, 39);
+        font-family: ans-serif;
+        font-weight: 100;
+        font-size: x-large;
+    }
+  
+p {
+  color: rgb(39, 36, 38);
+  font-size: 30px;
+  
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: #262627;
+  font-family: sans-serif;
+}
+footer{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgb(210, 205, 214);
+  height: auto;
+  width: 100vw;
+
+  padding-top: 40px;
+  color: rgb(19, 18, 22);
+}
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-content h3{
+  font-size: 2.1rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+.footer-content p{
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+  color: #1a1b1d;
+}
+.socials{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+.socials li{
+  margin: 0 10px;
+}
+.socials a{
+  text-decoration: none;
+  color: #fff;
+  border: 1.1px solid white;
+  padding: 5px;
+
+  border-radius: 50%;
+
+}
+.socials a i{
+  font-size: 1.1rem;
+  width: 20px;
+
+
+  transition: color .4s ease;
+
+}
+.socials a:hover i{
+  color: aqua;
+}
+.Auth-form-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+  background-color: red;
+}
+.Auth-form-container form {
+  max-width: 500px !important;
+
+
+}
+
+.footer-bottom{
+  background: #000;
+  width: 100vw;
+  padding: 20px;
+padding-bottom: 40px;
+  text-align: center;
+}
+.footer-bottom p{
+float: left;
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+.footer-bottom p a{
+color:#44bae8;
+font-size: 16px;
+text-decoration: none;
+}
+.footer-bottom span{
+  text-transform: uppercase;
+  opacity: .4;
+  font-weight: 200;
+}
+.footer-menu{
+float: right;
+
+}
+.footer-menu ul{
+display: flex;
+}
+.footer-menu ul li{
+padding-right: 10px;
+display: block;
+}
+.footer-menu ul li a{
+color: #cfd2d6;
+text-decoration: none;
+}
+.footer-menu ul li a:hover{
+color: #27bcda;
+}
+    
+@media (max-width:500px) {
+.footer-menu ul{
+display: flex;
+margin-top: 10px;
+margin-bottom: 20px;
+}
+}
+ 

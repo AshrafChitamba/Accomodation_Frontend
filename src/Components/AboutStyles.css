@@ -1,0 +1,68 @@
+.about {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+   
+}
+
+.content img{
+    padding: 20px;
+    border: 1px solid #123;
+    /* border-radius: 30px; */
+    height: auto;
+    width: 600px;
+    max-width: 100%;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.content img:hover {
+    transform: translateY(-5px);
+    
+    
+   
+}
+
+.content .about-texts {
+    width: 550px;
+    max-width: 100%;
+    padding: 0 10px;
+}
+
+.content {
+    width: 1280px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.content .about-texts h1 {
+    color: #123;
+    font-size: 60px;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+    font-weight: 300 !important;
+
+
+}
+
+.content .about-texts h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    text-align: center;
+   
+}
+.content .about-texts  p{
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    margin-bottom: 45px;
+}
+.milestone {
+    color: red;
+}

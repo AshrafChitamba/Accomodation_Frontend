@@ -1,0 +1,32 @@
+* {
+    user-select: none;
+  }
+  .Carousel.Caption>h3{
+    size: 1000px;
+  }
+  .carousel_img {
+    object-fit: cover;
+    height: 100% !important;
+  }
+  
+  .carousel_item {
+    height: 55vh;
+  }
+  .my_card {
+    display: flex !important;
+  }
+  @media only screen and (min-width: 1000px) {
+    .carousel_item {
+      height: 75vh;
+    }
+  }
+  
+  .form_container {
+    max-width: 450px !important;
+  }
+  .close_icon:hover {
+    background-color: rgba(206, 204, 204, 0.468);
+    transition: 0.3s ease;
+    cursor: pointer;
+  }
+  
